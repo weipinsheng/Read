@@ -1,0 +1,32 @@
+page {
+  background: #f8f8fa;
+}
+
+.read {
+  font-size: 33rpx;
+  line-height: 50rpx;
+  text-indent: 65rpx;
+}
+
+.ctrl {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background: #f8f8fa;
+  height: 150rpx;
+  align-items: center;
+}
+
+.back, .next {
+  background: #1b88ee;
+  color: #fff;
+  width: 250rpx;
+  border-radius: 16rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+}
+
+.next {
+}

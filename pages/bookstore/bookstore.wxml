@@ -1,0 +1,115 @@
+<view class="w search-box">
+    <!-- <rich-text nodes="{{nodes}}"></rich-text> -->
+    <image class="search-icon" src='../../images/search.png'></image>
+    <input placeholder='搜索' placeholder-style='font-size: 30rpx;padding-left: 20rpx;' confirm-type='search' class="search-input"></input>
+</view>
+<view class='w x-hide'>
+    <view class="classify-title">
+        <text class='classify-txt'>热门推荐</text>
+        <text class="classify-all" catchtap='seeAll'>查看全部</text>
+    </view>
+    <scroll-view scroll-x style='margin-top:30rpx;overflow:hidden'>
+        <view class="experience-book">
+            <view class="exp-book-box">
+                <image class="exp-book-list" src='../../images/hadread1.png'></image>
+                <text class='exp-book-title'>孝恭皇后(全三册）</text>
+            </view>
+            <view class="exp-book-box">
+                <image class="exp-book-list" src='../../images/hadread2.png'></image>
+                <text class='exp-book-title'>滴梅</text>
+            </view>
+            <view class="exp-book-box">
+                <image class="exp-book-list" src='../../images/hadread3.png'></image>
+                <text class='exp-book-title'>行者无疆</text>
+            </view>
+            <view class="exp-book-box">
+                <image class="exp-book-list" src='../../images/hadread3.png'></image>
+                <text class='exp-book-title'>行者无疆</text>
+            </view>
+            <view class="exp-book-box">
+                <image class="exp-book-list" src='../../images/hadread3.png'></image>
+                <text class='exp-book-title'>行者无疆</text>
+            </view>
+        </view>
+    </scroll-view>
+</view>
+<view class="w hot">
+    <view class="hot-list" catchtap='goDetail'>
+        <image class="hot-cover" src='../../images/hot_03.png'></image>
+        <view class="hot-detail">
+            <text class="hot-title">无声告白</text>
+            <text class="hot-author">伍倚时</text>
+        </view>
+    </view>
+    <view class="hot-list" catchtap='goDetail'>
+        <image class="hot-cover" src='../../images/hot_05.png'></image>
+        <view class="hot-detail">
+            <text class="hot-title">无声告白</text>
+            <text class="hot-author">伍倚时</text>
+        </view>
+    </view>
+    <view class="hot-list" catchtap='goDetail'>
+        <image class="hot-cover" src='../../images/hot_09.png'></image>
+        <view class="hot-detail">
+            <text class="hot-title">康熙大帝(全s册）</text>
+            <text class="hot-author">伍倚时</text>
+        </view>
+    </view>
+    <view class="hot-list" catchtap='goDetail'>
+        <image class="hot-cover" src='../../images/hot_10.png'></image>
+        <view class="hot-detail">
+            <text class="hot-title">鹿鼎记(第一卷）新版新版xinbanxin</text>
+            <text class="hot-author">金庸</text>
+        </view>
+    </view>
+</view>
+<view class="w classify-title">
+    <text class='classify-txt'>分类</text>
+    <text class="classify-all" catchtap='seeAll'>查看全部</text>
+</view>
+<view class="w classify-kind">
+    <view class="classify-list">
+        <view class="classify-subtitle">小说</view>
+        <view class="book-list">
+            <text class='book-title' catchtap='goDetail'>1.白鹿原</text>
+            <text class='book-title' catchtap='goDetail'>1.三体（全集）</text>
+            <text class='book-title' catchtap='goDetail'>1.一世红颜(全集）</text>
+            <text class='book-title' catchtap='goDetail'>1.解忧杂货铺</text>
+            <text class='book-title' catchtap='goDetail'>1.白夜行</text>
+            <text class='book-title'>……</text>
+        </view>
+    </view>
+    <view class="classify-list">
+        <view class="classify-subtitle">成功励志</view>
+        <view class="book-list">
+            <text class='book-title' catchtap='goDetail'>1.白鹿原</text>
+            <text class='book-title' catchtap='goDetail'>1.白鹿原</text>
+            <text class='book-title' catchtap='goDetail'>1.白鹿原</text>
+            <text class='book-title' catchtap='goDetail'>1.白鹿原</text>
+            <text class='book-title' catchtap='goDetail'>1.白鹿原</text>
+            <text class='book-title'>……</text>
+        </view>
+    </view>
+    <view class="classify-list">
+        <view class="classify-subtitle">经济管理</view>
+        <view class="book-list">
+            <text class='book-title' catchtap='goDetail'>1.白鹿原</text>
+            <text class='book-title' catchtap='goDetail'>1.白鹿原</text>
+            <text class='book-title' catchtap='goDetail'>1.白鹿原</text>
+            <text class='book-title' catchtap='goDetail'>1.白鹿原</text>
+            <text class='book-title' catchtap='goDetail'>1.白鹿原</text>
+            <text class='book-title'>……</text>
+        </view>
+    </view>
+    <view class="classify-list">
+        <view class="classify-subtitle">投资理财</view>
+        <view class="book-list">
+            <text class='book-title' catchtap='goDetail'>1.白鹿原</text>
+            <text class='book-title' catchtap='goDetail'>1.白鹿原</text>
+            <text class='book-title' catchtap='goDetail'>1.白鹿原</text>
+            <text class='book-title' catchtap='goDetail'>1.白鹿原</text>
+            <text class='book-title' catchtap='goDetail'>1.白鹿原</text>
+            <text class='book-title'>……</text>
+        </view>
+    </view>
+</view>

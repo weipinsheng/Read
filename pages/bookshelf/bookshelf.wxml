@@ -1,0 +1,40 @@
+<view class="w bookshelf">
+  <view class="bookshelf-list" catchtap="goRead">
+
+    <image class="bookshelf-list-cover" src='../../images/bookshelf_03.png'></image>
+    <text class='bookshelf-list-title'>把时间当做朋友</text>
+  </view>
+  <view class="bookshelf-list" catchtap="goRead">
+    <image class="bookshelf-list-cover" src='../../images/bookshelf_06.png'></image>
+    <text class='bookshelf-list-title'>把时间当做朋友</text>
+  </view>
+  <view class="bookshelf-list" catchtap="goRead">
+    <rich-text nodes="{{nodes}}"></rich-text>
+    <image class="bookshelf-list-cover" src='../../images/bookshelf_08.png'></image>
+    <text class='bookshelf-list-title'>把时间当做朋友</text>
+  </view>
+  <view class="bookshelf-list" catchtap="goRead">
+    <image class="bookshelf-list-cover" src='../../images/bookshelf_03.png'></image>
+    <text class='bookshelf-list-title'>把时间当做朋友</text>
+  </view>
+  <view class="bookshelf-list" catchtap="goRead">
+    <rich-text nodes="{{nodes}}"></rich-text>
+    <image class="bookshelf-list-cover" src='../../images/bookshelf_06.png'></image>
+    <text class='bookshelf-list-title'>把时间当做朋友把时间当做朋友</text>
+  </view>
+  <view class="bookshelf-list" catchtap="goRead">
+    <image class="bookshelf-list-cover" src='../../images/bookshelf_08.png'></image>
+    <text class='bookshelf-list-title'>把时间当做朋友</text>
+  </view>
+  <view class="bookshelf-list" catchtap="goRead">
+    <image class="bookshelf-list-cover" src='../../images/bookshelf_06.png'></image>
+    <text class='bookshelf-list-title'>把时间当做朋友</text>
+  </view>
+  <view class="bookshelf-list" catchtap="goRead">
+    <image class="bookshelf-list-cover" src='../../images/bookshelf_24.png'></image>
+    <text class='bookshelf-list-title'>把时间当做朋友</text>
+  </view>
+  <view class="bookshelf-list add-book" catchtap="find">
+    <image class="bookshelf-list-cover" src='../../images/bookshelf_23.png'></image>
+  </view>
+</view>

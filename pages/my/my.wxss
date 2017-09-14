@@ -1,0 +1,151 @@
+/* pages/my/my.wxss */
+
+page {
+  background: #edeef0;
+}
+
+/* 头像 */
+.userInfo {
+  padding-top: 30rpx;
+  padding-bottom: 10rpx;
+  background: #fff;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  background: #fff;
+}
+.user-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.headshot {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+}
+.userHead {
+  width: 485rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.userID {
+  padding-top: 10rpx;
+  line-height: 50rpx;
+
+}
+.userDec {
+  font-size: 30rpx;
+  color: #919294;
+  line-height: 60rpx;
+  width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+/* 阅历 */
+.exp-subtitle {
+  font-size: 40rpx;
+  font-weight: 500;
+  line-height: 80rpx;
+}
+
+.experience {
+  background: #fff;
+  margin-top: 20rpx;
+}
+
+.experience-book {
+   display: flex; 
+   justify-content: flex-start; 
+   flex-direction: row;
+   flex-wrap: nowrap;
+}
+
+.exp-book-box {
+  display: flex;
+  flex-direction: column;
+  width: 180rpx;
+  margin-right: 30rpx;
+}
+
+.exp-book-box:last-child {
+    margin-right: 0;
+}
+
+.exp-book-list {
+  width:180rpx;
+  height: 260rpx;
+}
+
+.exp-book-title {
+  margin-top: 20rpx;
+  font-size: 30rpx;
+  width: 100%;
+  margin-bottom: 20rpx;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  display:-webkit-box;  
+  -webkit-box-orient:vertical;
+  -webkit-line-clamp:2;
+}
+/* 猜你喜欢 */
+
+.recommend {
+  background: #fff;
+  margin-top: 20rpx;
+}
+
+.recommend-subtitle {
+  font-size: 40rpx;
+  font-weight: 500;
+  line-height: 80rpx;
+
+}
+
+.recommend-book {
+  margin-top: 30rpx;
+}
+
+.recommend-book-box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.recommend-book-list {
+  width:180rpx;
+  height: 260rpx;
+
+}
+.recommend-detail {
+  width: 450rpx;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 40rpx;
+  box-sizing: border-box;
+}
+
+.recommend-title {
+  line-height: 96rpx;
+  font-size: 48rpx;
+}
+.recommend-author {
+  line-height: 60rpx;
+  font-size: 30rpx;
+}
+.recommend-dec {
+  margin-top: 10rpx;
+  font-size: 30rpx;
+  line-height: 50rpx;
+  overflow:hidden;  
+  text-overflow:ellipsis;
+  display:-webkit-box;  
+  -webkit-box-orient:vertical;
+  -webkit-line-clamp:2; 
+}

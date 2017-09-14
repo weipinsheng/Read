@@ -1,0 +1,21 @@
+<view class="w book-detail">
+  <image class='book-cover' src='../../images/bookdetail_03.png'></image>
+  <text class='book-title'>哈利波特全集(1-7）</text>
+  <text class="book-author">J.K.罗琳</text>
+  <text class="book-intro">哈利波特哈利波特哈利波特哈利波特哈利波特哈利波特哈利波特哈利波特哈利波特哈利波特哈利波特哈利波特哈利波特哈利波特哈利波特哈利波特哈利波特哈利波特哈利波特哈利波特哈利波特</text>
+</view>
+<view class='w catalogue'>
+  <text class="catalogue-title">章节目录</text>
+  <view class='catalogue-section'>
+    <text class="catalogue-serial">第1章 甄士隐梦幻是是</text>
+    <text class="catalogue-serial">第2章 甄士隐梦幻是是</text>
+    <text class="catalogue-serial">第3章 甄士隐梦幻是是</text>
+    <text class="catalogue-serial">第4章 甄士隐梦幻是是</text>
+    <text class="catalogue-serial">第4章 甄士隐梦幻是是</text>
+    <text class="catalogue-serial">第4章 甄士隐梦幻是是</text>
+  </view>
+</view>
+<view class="footer">
+  <text class="read">立即阅读</text>
+  <text class="add-shelf">加入书架</text>
+</view>

@@ -1,0 +1,44 @@
+<view class="w classify">
+   <view class="classify-list" wx:for="{{array}}" wx:for-index="idx" wx:for-item="itemName">
+    <image class="classify-cover" src='../../images/classify_book_01.png'></image>
+    <view class="classify-detail">
+      <text class="classify-kind">{{itemName.channel}}</text>
+      <text class="classify-dec">{{idx}}</text>
+    </view>
+  </view> 
+   <!-- <view class="classify-list">
+    <image class="classify-cover" src='../../images/classify_book_02.png'></image>
+    <view class="classify-detail">
+      <text class="classify-kind">成功日志</text>
+      <text class="classify-dec">礼仪\经典等20个分类</text>
+    </view>
+  </view>
+  <view class="classify-list">
+    <image class="classify-cover" src='../../images/classify_book_03.png'></image>
+    <view class="classify-detail">
+      <text class="classify-kind">经济管理</text>
+      <text class="classify-dec">信息管理、一般管理等25个分类</text>
+    </view>
+  </view>
+  <view class="classify-list">
+    <image class="classify-cover" src='../../images/classify_book_04.png'></image>
+    <view class="classify-detail">
+      <text class="classify-kind">互联网</text>
+      <text class="classify-dec"></text>
+    </view>
+  </view>
+  <view class="classify-list">
+    <image class="classify-cover" src='../../images/classify_book_05.png'></image>
+    <view class="classify-detail">
+      <text class="classify-kind">社科</text>
+      <text class="classify-dec">非遗、各国文化等25个分类</text>
+    </view>
+  </view>
+  <view class="classify-list">
+    <image class="classify-cover" src='../../images/classify_book_03.png'></image>
+    <view class="classify-detail">
+      <text class="classify-kind">投资理财</text>
+      <text class="classify-dec">证券股票等25个分类</text>
+    </view>
+  </view>  -->
+</view>

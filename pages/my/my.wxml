@@ -1,0 +1,90 @@
+<!-- 头像信息 -->
+<view class="userInfo">
+    <view class='w user-box'>
+        <image class='headshot' src='{{headshot}}'></image>
+        <view class="userHead">
+            <text class="userID">{{text}}</text>
+            <text class="userDec">书中自有黄金屋,书中自有颜如玉书中自有颜如玉书中自有颜如玉</text>
+        </view>
+    </view>
+</view>
+<!-- 阅历 -->
+<view class="experience">
+    <view class='w x-hide'>
+        <view class='exp-subtitle' catchtap='add'>阅历</view>
+        <scroll-view scroll-x style='margin-top:30rpx'>
+            <view class='experience-book'>
+                <view class="exp-book-box">
+                    <image class="exp-book-list" src='../../images/hadread1.png'></image>
+                    <text class='exp-book-title'>孝恭皇后(全三册）</text>
+                </view>
+                <view class="exp-book-box">
+                    <image class="exp-book-list" src='../../images/hadread1.png'></image>
+                    <text class='exp-book-title'>孝恭皇后(全三册）</text>
+                </view>
+
+                <view class="exp-book-box">
+                    <image class="exp-book-list" src='../../images/hadread2.png'></image>
+                    <text class='exp-book-title'>滴梅</text>
+                </view>
+                <view class="exp-book-box">
+                    <image class="exp-book-list" src='../../images/hadread3.png'></image>
+                    <text class='exp-book-title'>行者无疆</text>
+                </view>
+                <view class="exp-book-box">
+                    <image class="exp-book-list" src='../../images/hadread3.png'></image>
+                    <text class='exp-book-title'>行者无疆</text>
+                </view>
+                <view class="exp-book-box">
+                    <image class="exp-book-list" src='../../images/hadread3.png'></image>
+                    <text class='exp-book-title'>行者无疆</text>
+                </view>
+                <view class="exp-book-box">
+                    <image class="exp-book-list" src='../../images/hadread3.png'></image>
+                    <text class='exp-book-title'>行者无疆</text>
+                </view>
+                <view class="exp-book-box">
+                    <image class="exp-book-list" src='../../images/hadread3.png'></image>
+                    <text class='exp-book-title'>行者无疆</text>
+                </view>
+            </view>
+        </scroll-view>
+    </view>
+</view>
+
+<!-- 猜你喜欢 -->
+<view class="recommend">
+    <view class='w'>
+        <view class='recommend-subtitle'>猜你喜欢</view>
+        <view class="recommend-book">
+            <view class="recommend-book-box">
+                <image class="recommend-book-list" src='../../images/hadread1.png'></image>
+                <view class='recommend-detail'>
+                    <text class='recommend-title'>滴梅</text>
+                    <text class='recommend-author'>赵信</text>
+                    <text class="recommend-dec">简介：如果你如果你如果你如果你如果你如果你如果你如果你如果你如果你</text>
+                </view>
+            </view>
+        </view>
+        <view class="recommend-book">
+            <view class="recommend-book-box">
+                <image class="recommend-book-list" src='../../images/hadread1.png'></image>
+                <view class='recommend-detail'>
+                    <text class='recommend-title'>滴梅</text>
+                    <text class='recommend-author'>赵信</text>
+                    <text class="recommend-dec">简介：如果你如果你如果你如果你如果你如果你如果你如果你如果你如果你</text>
+                </view>
+            </view>
+        </view>
+        <view class="recommend-book">
+            <view class="recommend-book-box">
+                <image class="recommend-book-list" src='../../images/hadread1.png'></image>
+                <view class='recommend-detail'>
+                    <text class='recommend-title'>滴梅</text>
+                    <text class='recommend-author'>赵信</text>
+                    <text class="recommend-dec">简介：如果你如果你如果你如果你如果你如果你如果你如果你如果你如果你</text>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

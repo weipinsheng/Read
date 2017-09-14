@@ -1,0 +1,28 @@
+<scroll-view scroll-x style="margin-top: 40rpx">
+    <view class="main">
+
+        <view class='main-con'>
+            <image src='../../images/book.png'></image>
+            <text class='text'>人美也要多读书</text>
+            <view class='moreBook' catchtap='goStore'>
+                <text>发现更多好书</text>
+            </view>
+        </view>
+        <view class='main-con'>
+            <image src='../../images/book.png'></image>
+            <text class='text'>人美也要多读书</text>
+            <view class='moreBook' catchtap='goStore'>
+                <text>发现更多好书</text>
+            </view>
+
+        </view>
+        <view class='main-con'>
+            <image src='../../images/book.png'></image>
+            <text class='text'>人美也要多读书</text>
+            <view class='moreBook' catchtap='goStore'>
+                <text>发现更多好书</text>
+            </view>
+        </view>
+
+    </view>
+</scroll-view>

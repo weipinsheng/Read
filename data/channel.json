@@ -1,0 +1,41 @@
+{
+    "status": "0",
+    "msg": "ok",
+    "result": [
+    {
+        "channelid": "1",
+        "channel": "小说",
+        "desc": "情感、民族",
+        "quantity": 20
+    },
+    {
+        "channelid": "2",
+        "channel": "成功日志",
+        "desc": "礼仪、经典",
+        "quantity": 25
+    },
+    {
+        "channelid": "3",
+        "channel": "经济管理",
+        "desc": "信息管理、一般管理",
+        "quantity": 18
+    },
+    {
+        "channelid": "4",
+        "channel": "互联网",
+        "desc": "",
+        "quantity": 34
+    },
+    {
+        "channelid": "5",
+        "channel": "社科",
+        "desc": "非遗、各国文化",
+        "quantity": 9
+    },
+    {
+        "channelid": "6",
+        "channel": "投资理财",
+        "desc": "证券股票",
+        "quantity": 33
+    }]
+}

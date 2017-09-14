@@ -1,0 +1,156 @@
+/* 搜索框 */
+
+.search-box {
+  position: relative;
+}
+.search-input {
+  box-shadow: 0rpx 10rpx 100rpx 1rpx #f2f2f2;
+  background: #fff;
+  display: block;
+  width: 100%;
+  height: 115rpx;
+  margin-top: 30rpx;
+  padding-left: 94rpx;
+  box-sizing: border-box;
+  font-size: 30rpx;
+  color: #8e959e;
+  border-radius: 10rpx;
+}
+
+.search-icon {
+  position: absolute;
+  top: 42rpx;
+  left: 50rpx;
+  width: 30rpx;
+  height: 30rpx;
+}
+
+.classify-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 60rpx;
+  background: #fff;
+}
+
+.classify-txt {
+  font-size: 40rpx;
+} 
+
+.classify-all {
+  color: #1e89ee;
+  font-size: 30rpx;
+}
+
+.experience-book {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1rpx solid #e8e9ea;
+}
+
+.exp-book-box {
+  display: flex;
+  flex-direction: column;
+  width: 180rpx;
+  margin-right: 30rpx;
+}
+
+.exp-book-box:last-child {
+    margin-right: 0;
+}
+
+.exp-book-list {
+  width:180rpx;
+  height: 260rpx;
+}
+
+.exp-book-title {
+  margin-top: 20rpx;
+  font-size: 30rpx;
+  width: 100%;
+  margin-bottom: 20rpx;
+  overflow:hidden;  
+  text-overflow:ellipsis;
+  display:-webkit-box;  
+  -webkit-box-orient:vertical;
+  -webkit-line-clamp:2;
+}
+
+.hot {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.hot-list {
+  width: 315rpx;
+  height: 148rpx;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 55rpx;
+}
+.hot-cover {
+  width: 100rpx;
+  height: 148rpx;
+}
+.hot-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 186rpx;
+ 
+}
+.hot-title {
+  font-size: 26rpx;
+  line-height: 37rpx;
+   text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2
+}
+.hot-author {
+  font-size: 22rpx;
+  color: #9599a1;
+  line-height: 52rpx;
+}
+
+.classify-kind {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 40rpx;
+}
+
+.classify-list {
+  margin-top: 40rpx;
+  width: 318rpx;
+  height: 398rpx;
+  border: 1rpx solid #edeef0;
+  border-radius: 10rpx;
+  overflow: hidden;
+}
+/* 分类副标题 */
+.classify-subtitle {
+  font-size: 36rpx;
+  width: 100%;
+  line-height: 72rpx;
+  text-align: center;
+}
+
+.book-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  padding-left: 30rpx;
+  margin-top: 20rpx;
+  
+}
+
+/* 书名 */
+
+.book-title {
+  font-size: 24rpx;
+  line-height: 50rpx;
+}

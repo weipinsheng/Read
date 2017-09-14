@@ -1,0 +1,49 @@
+{
+  "pages": [   
+    "pages/index/index",
+    "pages/bookshelf/bookshelf",
+    "pages/bookstore/bookstore",
+    "pages/my/my",
+    "pages/allclassifications/allclassifications",
+    "pages/read/read",
+    "pages/bookdetail/bookdetail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "发现",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#666e78",
+    "selectedColor": "#1b88ee",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "images/index_in.png",
+        "iconPath": "images/index.png",
+        "pagePath": "pages/index/index",
+        "text": "发现"
+      },
+      {
+        "selectedIconPath": "images/bookshelf_in.png",
+        "iconPath": "images/bookshelf.png",
+        "pagePath": "pages/bookshelf/bookshelf",
+        "text": "书架"
+      },
+      {
+        "selectedIconPath": "images/bookstore_in.png",
+        "iconPath": "images/bookstore.png",
+        "pagePath": "pages/bookstore/bookstore",
+        "text": "书城"
+      },
+      {
+        "selectedIconPath": "images/my_in.png",
+        "iconPath": "images/my.png",
+        "pagePath": "pages/my/my",
+        "text": "我的"
+      }
+    ]
+  }
+}

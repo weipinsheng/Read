@@ -1,0 +1,66 @@
+.book-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40rpx;
+}
+.book-cover {
+  width: 250rpx;
+  height: 360rpx;
+}
+.book-title {
+  font-size: 45rpx;
+  color: #3b424b;
+  line-height: 80rpx;
+}
+.book-author {
+  font-size: 27rpx;
+  color: #268ef0;
+  line-height: 50rpx;
+}
+.book-intro {
+  font-size: 28rpx;
+  color: #474f59;
+  line-height: 53rpx;
+  padding-bottom: 20rpx;
+  letter-spacing: 2rpx;
+}
+/* 章节目录 */
+.catalogue {
+  border-top: 20rpx solid #f4f5f7;
+}
+
+.catalogue-title {
+  font-size: 30rpx;
+  line-height: 68rpx;
+}
+.catalogue-section {
+  display: flex;
+  flex-direction: column;
+}
+.catalogue-serial {
+  font-size: 28rpx; 
+  border-top: 1px solid #f4f5f7;
+  line-height: 68rpx;
+}
+
+/* 按钮 */
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  line-height: 90rpx;
+  background: #fff;
+}
+
+.read {
+  font-size: 34rpx;
+  color: #1b88ee;
+  margin-right: 80rpx;
+}
+.add-shelf {
+  font-size: 34rpx;
+  color: #1b88ee;
+  margin-left: 80rpx;
+}
